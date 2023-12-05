@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.li-container {
+  list-style-type: none;
+  width: 48%;
+  margin-bottom: 16px;
+}
+.button {
+  width: 120px;
+  margin-bottom: 16px;
+  margin-right: 24px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #382f5a;
+  color: #c7d2fe;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 24px;
+  }
+}
